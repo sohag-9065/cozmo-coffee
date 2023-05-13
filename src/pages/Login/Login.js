@@ -52,9 +52,9 @@ const Login = () => {
     }
 
     return (
-        <div className="hero min-h-[90vh] bg-amber-500">
+        <div className="hero min-h-[80vh] bg-primary">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="card flex-shrink-0 w-80  lg:min-w-[450px] shadow-2xl bg-amber-500">
+                <div className="card flex-shrink-0 w-80  lg:min-w-[450px] shadow-2xl bg-primary">
                     <div className="card-body bg-base-200 text-black rounded-md">
                         <h1 className='text-2xl text-center font-semibold'>Login</h1>
                         <form onSubmit={handleSubmit(onSubmit)} className="form-control  ">

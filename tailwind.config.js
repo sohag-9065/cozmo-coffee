@@ -6,7 +6,12 @@ module.exports = {
     'node_modules/react-daisyui/dist/**/*.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#8B4513",
+        secondary: "#00f6ff",
+      },
+    },
   },
   plugins: [require("daisyui")],
 }

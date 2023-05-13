@@ -3,12 +3,12 @@ import cup_coffee from '../assets/cup_coffee.gif';
 
 const FooterSection = () => {
     return (
-        <div className="bg-amber-500 h-[30vh] w-[100%] items-center flex justify-center">
+        <div className="bg-primary h-[15vh] md:h-[30vh] w-[100%] items-center flex justify-center">
       <div className="flex flex-col justify-center items-center gap-5">
         <img
           src={cup_coffee}
           alt=""
-          className="h-[200px] w-[200px] object-cover"
+          className="h-[100px]  w-[100px] xl:h-[200px] xl:w-[200px] object-cover"
         />
         <p className="text-white text-xl">
           All content ©{" "}

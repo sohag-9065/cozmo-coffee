@@ -7,7 +7,7 @@ const HomeMenu = ({ max }) => {
   let render = max ? 6 : 3;
   return (
     <div
-      className={`${styles.paddingX} ${styles.paddingY} w-[100%] bg-amber-500`}
+      className={`${styles.paddingX} ${styles.paddingY} w-[100%] bg-primary`}
     >
       <h3 className="text-3xl text-center text-white font-extrabold">
         Your Favorite
